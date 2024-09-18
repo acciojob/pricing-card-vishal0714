@@ -1,16 +1,63 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            border: 2px solid black;
+            height: 500px;
+            width: 200px;
+            padding: 20px;
+            margin: 20px;
+            background-color: aqua;
+            text-align: center;
+            box-shadow: 10px 10px 5px lightblue;
+        }
+
+        .pic img{
+            height: 250px;
+            width: 180px;
+            padding: 10px;
+        }
+        .title{
+            text-align: center;
+        }
+        .btn{
+            padding: 10px;
+            background-color: rgb(234, 255, 0);
+            color: black;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .btn:hover{
+            padding: 10px;
+            background-color: rgb(211, 167, 167);
+            color: black;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    
+    <div class="card">
+        <div class="pic">
+            <img src="https://i2.wp.com/youmeandtrends.com/wp-content/uploads/2015/11/beautiful-flowers-pictures-free-download.jpg" alt="loding">
+        </div>
 
+        <div class="title">
+            <h1>Pricing Card</h1>
+            <div class="title">
+                <p>Price: Rs 200</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde.</p>
+            </div>
+        </div>
+
+        <div >
+            <button type="button" class="btn">Buy Now</button>
+        </div>
+    </div>
 </body>
-
 </html>
